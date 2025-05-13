@@ -62,7 +62,7 @@ Lets test!
 
 ### Without attribute
 
-<details markdown="1">
+<details>
 
  <summary>Open me to see CSS</summary>
 
