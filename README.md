@@ -1,22 +1,33 @@
 # markdown-in-html
 
-How to display a markdown list in a &lt;details> tag?
+How do we display markdown content inside of a &lt;details> tag, when the page is deployed on `github pages`?
+
+This fairly niche problem is going to be addressed and solved in this repo!
 
 [Go to the GitHub Pages deployment to see it in action (or not, as the case may be!)](https://frank-ventures.github.io/markdown-in-html/)
 
-Apparently you can use an attribute like so:
+---
 
-```html
+Apparently you can use an attribute in the `<details>` tag, like so:
+
+```
 <details markdown="1">
   <summary>SUMMARY TEXT</summary>
 
-  - MARKDOWN CONTENT - And some more
+- MARKDOWN CONTENT
+
+- And some more
+
 </details>
 ```
 
 and it will just work.
 
+---
+
 Lets test!
+
+The following examples will look fine on GitHub when you're viewing the ReadMe, but when you're looking at the deployed Github page the non-attributed version will not display as intended.
 
 ## Lists
 
